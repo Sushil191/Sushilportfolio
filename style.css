@@ -5,7 +5,8 @@
   margin-bottom: 30px;
 }
 .experience,
-.education {
+.education,
+.aboutMe {
   background-color: #f8f9fa;
   border-radius: 8px;
   padding: 20px;
@@ -23,9 +24,9 @@
 }
 .btn-hover-effect:hover {
   border: 10px;
-  background-color: #000000;
+  background-color: #1b945d;
   color: #fff;
-  border-color: #004085;
+  border-color: #40df06;
   cursor: pointer;
 }
 .card-hover-effect:hover {
@@ -55,13 +56,6 @@
   background-color: #0056b3;
   border-color: #004085;
 }
-.form-message {
-  display: none;
-  margin-top: 20px;
-}
-.form-message.success {
-  color: #28a745;
-}
-.form-message.error {
-  color: #dc3545;
+.awsCert {
+  height: auto;
 }

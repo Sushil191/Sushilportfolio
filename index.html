@@ -17,6 +17,8 @@
       rel="stylesheet"
     />
     <script src="script.js"></script>
+
+
   </head>
   
    <!-- Navbar -->
@@ -65,29 +67,37 @@
         
         <!-- Overlay Text -->
         <div class="overlay-text row">
-            <h1 style="color: rgb(241, 237, 237);">Welcome to Sushil's Portfolio</h1>
-            <div class="col-md-6 my-5">
-             <a href="https://github.com/Sushil191" target="_blank" class="btn btn-outline-light btn-custom"> <h3> GitHub</h3><img
-              src="github.gif"
-              alt="Animated GIF"
-              class="img-fluid rounded"
-            /> </a>
-            </div>
-            <div class="col-md-6 my-5 ">
-             <a href="Sushil resume.docx" target="_blank" class="btn btn-outline-light btn-custom"><h3>  Resume</h3><img
-              src="resume.gif"
-              alt="Animated GIF"
-              class="img-fluid rounded"
-            /></a>
-            </div>
-            </div>
-            </div>
-       
+    <h1 style="color: rgb(241, 237, 237);">Welcome to Sushil's Portfolio</h1>
+    <div class="col-md-6 my-5">
+        <a href="https://github.com/Sushil191" target="_blank">
+            <button class="btn btn-outline-light btn-custom">
+                <h3>GitHub <i class="fa-brands fa-github"></i></h3>
+                
+            </button>
+        </a>
+    </div>
 
            
+    
+    <div class="col-md-6 my-5">
+        <a href="Sushil resume.docx" target="_blank">
+            <button class="btn btn-outline-light btn-custom">
+                <h3>Resume <i class="fa-solid fa-file"></i></h3>
+                
+            </button>
+        </a>
+    </div>
+    </div>
+            
+           </div>
         
 
-    
+
+           
+    <div class="typewriter">
+    <h1 id="animated-text"></h1>
+</div>
+
                 
                 
             
@@ -233,8 +243,7 @@
                                                     <h5 class="card-title">Project 1</h5>
                                                     <p class="card-text">
                                                     Created a website for Transport office where clients can book
-                                                    various kinds or rental services and use accoarding to their
-                                                    needs
+                                                    various kinds or rental services within their areas.
                                                     </p>
                                                 </div>
                             </div>
@@ -283,14 +292,15 @@
 
     <!-- Contact Section -->
      
-     <h3 class="text-center"> Get in Touch</h3>
+     <h3 class="text-center"> Get in Touch <i class="fa-solid fa-hand"></i></h3>
      
     <div class="container mt-5 my-3">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
-        <div class="contact-form-container">
-          <h2>Contact Us</h2>
-          <form id="contactForm">
+        <div class="contact-form-container ">
+          <h2>Contact Me <i class="fa-solid fa-envelope"></i></h2>
+          <form id="contactForm " action="https://formspree.io/f/manwbdoo"
+  method="POST">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
@@ -303,7 +313,7 @@
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-outline-dark btn-custom ">Send <i class="fa-solid fa-rocket"></i></button>
             <div id="formMessage" class="form-message"></div>
           </form>
         </div>
@@ -318,7 +328,7 @@
     <!-- Footer Section -->
     
     <footer
-      class="bg-dark text-white text-center animate__animated animate__fadeInUp " >
+      class="bg-dark text-white text-center  " >
     
       <p>Socials</p>
       <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -326,13 +336,9 @@
       <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
       <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-    
-      <br /><a href="https://lordicon.com/"
->Icons by Lordicon.com</a
-          >
-          <p>&copy; 2024 Sushil Dhakal. All Rights Reserved.</p>
+      <p>&copy; 2024 Sushil Dhakal. All Rights Reserved.</p>
      
-
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
   </body>
